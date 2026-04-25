@@ -1,4 +1,4 @@
-# Calculadora-Bin-ria-Decimal
+# Calculadora 
 
 ![Calculadora](fotoCalculadora.jpg)
 
