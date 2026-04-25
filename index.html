@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>CALCULADORA EM DECIMAL E BINÁRIA</title>
+</head>
+<body>
+
+    <h1>Calculadora</h1>
+
+    <div class="container">
+
+        <!-- DECIMAL -->
+        <div class="calculadora">
+            <h2>Calculadora Decimal!</h2>
+            <input type="text" id="num1" placeholder="digite um numero">
+            <input type="text" id="num2" placeholder="digite um numero">
+            <br>
+
+            <button id="btnSomar">Somar</button>
+            <button id="btnSubtrair">Subtrair</button>
+            <button id="btnMultiplicar">Multiplicar</button>
+            <button id="btnDividir">Dividir</button>
+
+            <br><br>
+            <input type="text" id="resultado" placeholder="resultado" readonly>
+        </div>
+
+        <!-- BINÁRIO -->
+        <div class="calculadora">
+            <h2>Calculadora Binária!</h2>
+            <input type="text" id="bin1" placeholder="digite um numero">
+            <input type="text" id="bin2" placeholder="digite um numero">
+            <br>
+
+            <button id="binSomar">Somar</button>
+            <button id="binSubtrair">Subtrair</button>
+            <button id="binMultiplicar">Multiplicar</button>
+            <button id="binDividir">Dividir</button>
+            <button id="binResto">Resto</button>
+
+            <br><br>
+            <input type="text" id="resultadobin" placeholder="resultado" readonly>
+            
+        </div>
+
+    </div>
+
+    <details>
+        <summary>VER HISTÓRICO</summary>
+        <div id="historico">
+        
+        </div>
+        <button onclick="limparLista()">Limpar Lista</button>
+    </details>
+
+    <script src="script.js"></script>
+</body>
+</html>
