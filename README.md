@@ -1,4 +1,5 @@
-# Calculadora 
+## Acesse o projeto
+🔗 https://millena-farias.github.io/Calculadora-Bin-ria-Decimal/
 
 ![Calculadora](fotoCalculadora.jpg)
 
@@ -20,6 +21,4 @@ Uma calculadora web que realiza operações matemáticas em decimal e binário, 
 - CSS
 - JavaScript
 
-## Acesse o projeto
 
-🔗 https://millena-farias.github.io/Calculadora-Bin-ria-Decimal/
